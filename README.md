@@ -1,2 +1,2 @@
 # TheMVP
-Somasyn AI (2025 All Rights Reserved)
+Somasync AI (2025 All Rights Reserved)
