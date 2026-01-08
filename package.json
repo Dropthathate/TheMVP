@@ -5,6 +5,7 @@
     "build": "esbuild server/_core/index.ts --platform=node --bundle --format=esm --outdir=dist"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "esbuild": "^0.20.0"
   }
 }
