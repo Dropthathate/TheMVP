@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "echo 'Build complete - Netlify will bundle functions automatically'",
+    "build": "mkdir -p build && echo 'API deployed as Netlify Functions' > build/index.html",
     "dev": "netlify dev"
   },
   "dependencies": {
