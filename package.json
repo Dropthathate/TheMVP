@@ -1,16 +1,26 @@
 {
   "name": "somasync-ai-mvp",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "build": "esbuild server/_core/index.ts --platform=node --bundle --format=esm --outdir=dist"
+    "build": "echo 'Build complete - Netlify will bundle functions automatically'",
+    "dev": "netlify dev"
   },
   "dependencies": {
+    "@netlify/functions": "^2.4.1",
     "@trpc/server": "^11.8.1",
     "axios": "^1.13.2",
     "cookie": "^1.1.1",
     "dotenv": "^16.4.7",
-    "esbuild": "^0.27.2",
+    "drizzle-orm": "^0.30.0",
     "express": "^5.2.1",
+    "jose": "^5.2.0",
+    "mysql2": "^3.9.0",
+    "serverless-http": "^3.2.0",
+    "superjson": "^2.2.1",
     "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2"
   }
 }
