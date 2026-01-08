@@ -1,0 +1,12 @@
+{
+  "name": "somasync-ai-mvp",
+  "version": "1.0.0",
+  "description": "SomaSync AI MVP",
+  "scripts": {
+    "build": "npm install --prefix server && esbuild server/_core/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
