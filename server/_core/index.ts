@@ -54,9 +54,12 @@ async function startServer() {
   app.use(express.json({ limit: "50mb" }));
   app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
+  console.log("[api] Registering OAuth routes...");
   registerOAuthRoutes(app);
+  console.log("[api] OAuth routes registered.");
 
   app.get("/api/health", (_req, res) => {
+    console.log("[api] Health check requested");
     res.json({ ok: true, timestamp: Date.now() });
   });
 
