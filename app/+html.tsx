@@ -14,10 +14,10 @@ export default function Root({ children }: PropsWithChildren) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         {/* Primary Meta Tags */}
-        <title>SomaSync AI - AI-Powered Postural Assessment Documentation for Physical Therapists in Fresno, CA</title>
+        <title>SomaSync AI - AI-Powered Postural Assessment Documentation for Physical Therapists in the Central Valley, CA</title>
         <meta
           name="description"
-          content="SomaSync AI is a hands-free, AI-powered assistant for physical therapists in Fresno and Central Valley, CA. Real-time SOAP note generation, postural assessment documentation, and anatomical mapping for musculoskeletal therapy."
+          content="SomaSync AI is a hands-free, AI-powered assistant for physical therapists in the Central Valley, CA throughout Fresno and Sacramento to Stanislaus and surrounding counties. Real-time SOAP note generation, postural assessment documentation, and anatomical mapping for musculoskeletal therapy."
         />
         <meta
           name="keywords"
@@ -33,7 +33,7 @@ export default function Root({ children }: PropsWithChildren) {
         <meta property="og:title" content="SomaSync AI - AI-Powered Postural Assessment for Physical Therapists" />
         <meta
           property="og:description"
-          content="Hands-free AI assistant for physical therapists in Fresno, CA. Real-time SOAP notes, postural assessment, and anatomical documentation for musculoskeletal therapy."
+          content="Hands-free AI assistant for physical therapists in Central Valley and surrounding. Real-time SOAP notes, postural assessment, and anatomical documentation for musculoskeletal therapy."
         />
         <meta
           property="og:image"
@@ -66,7 +66,7 @@ export default function Root({ children }: PropsWithChildren) {
         <meta name="msapplication-TileColor" content="#E6F4FE" />
         <meta name="theme-color" content="#E6F4FE" />
 
-        {/* Geo Targeting - Fresno, California & Central Valley */}
+        {/* Geo Targeting - Fresno, Sacramento, Modesto, Los Banos California & Central Valley */}
         <meta name="geo.region" content="US-CA" />
         <meta name="geo.placename" content="Fresno, California" />
         <meta name="geo.position" content="36.7378;-119.7871" />
@@ -121,7 +121,7 @@ export default function Root({ children }: PropsWithChildren) {
           }}
         />
 
-        {/* Structured Data - Local Business (Fresno, CA) */}
+        {/* Structured Data - Local Business (Sacramento, CA) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -132,7 +132,7 @@ export default function Root({ children }: PropsWithChildren) {
               url: "https://somasync.app",
               logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663283219909/HGtdIPEzHAYBEhSm.png",
               description:
-                "AI-powered clinical documentation solutions for physical therapists and manual therapy clinicians in Fresno and Central Valley, California",
+                "AI-powered clinical documentation solutions for physical therapists and manual therapy clinicians in Central Valley, California and surrounding from Fresno to Los Banos",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Fresno",
