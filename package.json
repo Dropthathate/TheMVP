@@ -1,5 +1,7 @@
-{
-  "name": "app-template",
+
+{ "scripts": {
+  "build": "expo build:web" 
+}"name": "app-template",
   "version": "1.0.0",
   "private": true,
   "main": "expo-router/entry",
